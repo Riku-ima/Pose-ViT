@@ -8,6 +8,7 @@ ViTにpose estimataionを合わせる。
 
 ## 参考文献
 [1]Facebook(2021)
-https://github.com/facebookresearch/TimeSformer
+https://github.com/facebookresearch/TimeSformer 
+
 [2]hobin , (2021)
 https://github.com/hkair/Basketball-Action-Recognition
