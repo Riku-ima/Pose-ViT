@@ -15,6 +15,9 @@ Test:embeddingをTubletに
 
 将来的には [Multiview Transformers for Video Recognition](https://arxiv.org/pdf/2201.04288.pdf)  を参考にTubletとpose baseをviewにしてmulti view化
 
+![image](https://user-images.githubusercontent.com/61176769/223036006-cb85fd8a-6538-4917-81ed-fdad8f9badb4.png)
+このようにし、テスト
+
 ## 参考文献(コード)
 [1]Facebook(2021)
 https://github.com/facebookresearch/TimeSformer 
