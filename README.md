@@ -1,5 +1,7 @@
 # Pose-ViT
 
+DatasetはBasketball の選手のaction(10 cls)
+
 ViTにpose estimataionを合わせる。
 現状 Densenet , AcT , Timesformerをベースにモデルを比較中
 
@@ -10,9 +12,16 @@ ViTにpose estimataionを合わせる。
 
 Test:embeddingをTubletに
 
-他に参考になりそうなTransformerモデルの作成。
-精度が40%付近 。そのままだとCNN baseに負けているので、大規模データで事前学習を行う。
+---------------------------------
+**近況 :New**
 
+AcT のパラメータを調整 
+cosine + warmingup leraning scheduler
+Adam -> momentum + SGD
+精度は約69 %ほどに
+ViTの事前学習を追加したい。
+
+## 将来展望
 将来的には [Multiview Transformers for Video Recognition](https://arxiv.org/pdf/2201.04288.pdf)  を参考にTubletとpose baseをviewにしてmulti view化
 
 ![image](https://user-images.githubusercontent.com/61176769/223036006-cb85fd8a-6538-4917-81ed-fdad8f9badb4.png)
